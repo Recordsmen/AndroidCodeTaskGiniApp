@@ -29,7 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.889"
-            tools:text="@string/likes" />
+            tools:text="@string/mokeLikes" />
 
         <TextView
             android:id="@+id/tv_comments"
@@ -45,7 +45,7 @@
             app:layout_constraintStart_toEndOf="@+id/tv_likes"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.889"
-            tools:text="@string/comments" />
+            tools:text="@string/mokeComments" />
 
     </FrameLayout>
 </layout>

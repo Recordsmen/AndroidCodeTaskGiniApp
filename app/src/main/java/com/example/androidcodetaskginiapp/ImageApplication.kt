@@ -33,15 +33,11 @@ class ImageApplication: Application() {
                 }
             }.build()
 
-        val calendar = Calendar.getInstance()
-        calendar.time
-        Log.i("Time",calendar.time.toString())
-
         val repeatingRefreshRequest = PeriodicWorkRequestBuilder<RefreshData>(
             12,
-            TimeUnit.HOURS,
+            TimeUnit.SECONDS,
             11,
-            TimeUnit.HOURS
+            TimeUnit.SECONDS
         )
             .setConstraints(constraints)
             .build()

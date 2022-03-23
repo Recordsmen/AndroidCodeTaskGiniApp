@@ -1,7 +1,6 @@
 package com.example.androidcodetaskginiapp.viewModel
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -10,7 +9,6 @@ import com.example.androidcodetaskginiapp.model.Hit
 import com.example.androidcodetaskginiapp.repository.ImageRepository
 import com.udacity.hit.database.ImageDataBase
 import kotlinx.coroutines.launch
-import java.util.*
 
 class MainScreenViewModel(application: Application) : AndroidViewModel(application) {
 

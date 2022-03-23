@@ -31,7 +31,6 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
         viewHolder.binding.ivImage.load(dataSet[position].largeImageURL)
-        Log.i("TAG",dataSet[position].largeImageURL)
         viewHolder.binding.tvComments.text = "Comments:" + dataSet[position].comments
         viewHolder.binding.tvLikes.text = "Likes:" + dataSet[position].likes
     }
